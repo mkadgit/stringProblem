@@ -1,0 +1,8 @@
+Test Plan and Test Cases to test the code that removes all instances of a given Character in a given String
+
+Positive Test Case
+inputString is "notebook", character to be removed is 'o': Validate that outputString is "ntebk"
+
+Negative Test Cases:
+1)inputString is "computer", character to be removed is 'z': Validate that outputString stays the same as input "computer"
+2)inputString is "", character to be removed is 'r': Validate that outputString stays the same as input ""
